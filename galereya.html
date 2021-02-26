@@ -1,16 +1,44 @@
 <html>
 <head>
+  <style>
+  /* div { border: 1px solid black; } */
+  .galleryblock {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+  }
+  .galleryimage {
+    width: 47%;
+    height: 15vw;
+
+    margin-bottom: 5%;
+
+    /* background-image: url(); */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .galleryimage:nth-child(1) {
+    width: 100%;
+    height: 30vw
+  }
+  </style>
   <link rel="stylesheet" href="khustekstyles.css">
 </head>
-<body>
-<div class="divbox">
-</div>
-
-<div class="divskip">
-
-</div>
-
-<div class="divbox">
-</div>
+<body class="sitebody">
+  <div class="divbox">
+    <div class="galleryblock">
+      <div class="galleryimage" style="background-image: url();"></div>
+      <div class="galleryimage"></div>
+      <div class="galleryimage"></div>
+    </div>
+    <div class="galleryblock">
+      <div class="galleryimage"></div>
+      <div class="galleryimage"></div>
+      <div class="galleryimage"></div>
+    </div>
+  </div>
 </body>
 </html>
